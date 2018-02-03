@@ -1,0 +1,17 @@
+{
+  "name": "npm-register-docker",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "npm-register start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ya Zhuang <zhuangya@gmail.com> (https://zhuangya.me)",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-register": "^2.6.3"
+  }
+}
