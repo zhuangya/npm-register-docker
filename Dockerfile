@@ -12,7 +12,7 @@ HEALTHCHECK --interval=10m --timeout=3s\
 
 EXPOSE 3000
 
-ONBUILD RUN npm install
+RUN npm install
 
 ENV NPM_REGISTER_STORAGE fs
 ENV NPM_REGISTER_FS_DIRECTORY /npm-register
