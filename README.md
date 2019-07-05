@@ -1,5 +1,7 @@
 # npm-register in docker
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zhuangya/npm-register-docker.svg)](https://greenkeeper.io/)
+
 run [npm-register](https://github.com/jdxcode/npm-register) in docker =)
 
 ```bash
